@@ -2181,7 +2181,7 @@ ul.social li a {
 .socials ul {
   position: relative;
   top: 50%;
-  left: 47.5%;
+  left: 49%;
   margin: 0;
   transform: translate(-50%, -50%);
   display: flex;
@@ -2191,7 +2191,22 @@ ul.social li a {
 
 .socials ul li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 7px;
+}
+
+@media (max-width: 400px) {
+  .socials ul {
+    left: 47%;
+  }
+  .socials ul li {
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 350px) {
+  .socials ul li {
+    margin: 5px 20px 7px 0;
+  }
 }
 
 .socials ul li .fa {
