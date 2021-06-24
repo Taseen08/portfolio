@@ -20,7 +20,13 @@ html {
   top: 0;
   left: 0;
   overflow: visible;
-  background-image: url(https://wallpapercave.com/wp/wp2856609.jpg);
+  background-image: linear-gradient(346deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 22%,rgba(140, 140, 140,0.04) 
+  22%, rgba(140, 140, 140,0.04) 69%,rgba(225, 225, 225,0.04) 69%, rgba(225, 225, 225,0.04) 100%),
+  linear-gradient(31deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 42%,rgba(140, 140, 140,0.04) 42%, 
+  rgba(140, 140, 140,0.04) 85%,rgba(225, 225, 225,0.04) 85%, rgba(225, 225, 225,0.04) 100%),
+  linear-gradient(55deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 13%,rgba(140, 140, 140,0.04) 13%, 
+  rgba(140, 140, 140,0.04) 72%,rgba(225, 225, 225,0.04) 72%, rgba(225, 225, 225,0.04) 100%),linear-gradient(90deg, 
+  rgb(0,0,0),rgb(0,0,0));
   background-size: cover;
   background-attachment: fixed;
 }
@@ -72,21 +78,27 @@ html {
   top: 0;
   left: 0;
   overflow: visible;
-  background-image: url(https://image.freepik.com/free-vector/abstract-3d-vector-technology-dark-gray-background_87538-28.jpg);
+  background-image: linear-gradient(346deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 22%,rgba(140, 140, 140,0.04) 
+  22%, rgba(140, 140, 140,0.04) 69%,rgba(225, 225, 225,0.04) 69%, rgba(225, 225, 225,0.04) 100%),
+  linear-gradient(31deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 42%,rgba(140, 140, 140,0.04) 42%, 
+  rgba(140, 140, 140,0.04) 85%,rgba(225, 225, 225,0.04) 85%, rgba(225, 225, 225,0.04) 100%),
+  linear-gradient(55deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 13%,rgba(140, 140, 140,0.04) 13%, 
+  rgba(140, 140, 140,0.04) 72%,rgba(225, 225, 225,0.04) 72%, rgba(225, 225, 225,0.04) 100%),linear-gradient(90deg, 
+  rgb(0,0,0),rgb(0,0,0));
   background-size: cover;
   background-attachment: fixed;
 }
-
+/*
 .overlay {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  /* background: rgb(22, 31, 46); */
+   background: rgb(22, 31, 46);  
   background: rgba(19, 19, 31, 0.904);
   opacity: 0.9;
-}
+} */
 
 .poppins-font {
   font-family: "Poppins", sans-serif;
