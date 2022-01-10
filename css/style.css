@@ -308,7 +308,7 @@ hr.separator {
   background-repeat: no-repeat;
   background-position: top;
   height: 500px;
-  width: 700px;
+  width: 900px;
   z-index: 111;
   left: 60px;
   top: 180px;
@@ -711,11 +711,6 @@ hr.separator {
   }
 
   .main-img-mobile {
-    border-radius: 50%;
-    width: 270px;
-    height: 270px;
-    border: 4px solid #252525;
-    margin: 0 auto 25px;
     display: block;
   }
 
