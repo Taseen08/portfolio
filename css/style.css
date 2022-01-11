@@ -26,6 +26,10 @@ html {
   background-attachment: fixed;
 }
 
+.highlight {
+  color: rgb(81, 126, 211);
+}
+
 .typing {
   color: rgb(81, 126, 211);
 }
