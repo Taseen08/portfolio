@@ -21,7 +21,8 @@ html {
   left: 0;
   overflow: visible;
   /* background-color: rgba(19, 18, 18, 0.952); */
-  background-color: rgba(19, 18, 18, 0.952);
+  /* background-color: rgba(18, 17, 17, 0.952); */
+  background-color: rgba(15, 14, 14, 0.952);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -308,7 +309,7 @@ hr.separator {
 /*** Homepage ***/
 
 .home .bg {
-  background-image: url(../img/home.gif);
+  background-image: url(../img/giphy.gif);
   background-repeat: no-repeat;
   background-position: top;
   height: 500px;
