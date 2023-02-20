@@ -38,7 +38,7 @@
 
 $(document).ready(function () {
   var typed = new Typed(".typing", {
-    strings: ["Student", "Software Engineer", "Entrepreneur"],
+    strings: ["a Student", "a Software Engineer", "an aspiring Entrepreneur"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,

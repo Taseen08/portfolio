@@ -27,6 +27,21 @@ html {
   background-attachment: fixed;
 }
 
+/* New design */
+.home-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
 .highlight {
   color: rgb(81, 126, 211);
 }
@@ -309,7 +324,7 @@ hr.separator {
 /*** Homepage ***/
 
 .home .bg {
-  background-image: url(../img/giphy.gif);
+  /* background-image: url(../img/giphy.gif); */
   background-repeat: no-repeat;
   background-position: top;
   height: 500px;
